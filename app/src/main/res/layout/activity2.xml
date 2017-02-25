@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4quiz">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/identifyme"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="@string/app_name"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textSize="70sp" />
+
+        <ImageView
+            android:id="@+id/photo_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/beiging" />
+
+        <RadioGroup
+            android:id="@+id/ques1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp">
+
+            <RadioButton
+                android:id="@+id/opa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oneopa"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+            <RadioButton
+                android:id="@+id/opb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oneopb"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+            <RadioButton
+                android:id="@+id/opc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oneopc"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/where"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="50dp"
+            android:text="@string/ques2"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textSize="50sp" />
+
+
+        <ImageView
+            android:id="@+id/imgangkor"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/angkorcrop" />
+
+        <CheckBox
+            android:id="@+id/opa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:paddingLeft="30dp"
+            android:text="@string/twoopa"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffff" />
+
+        <CheckBox
+            android:id="@+id/opb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:paddingLeft="30dp"
+            android:text="@string/twoopb"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffff" />
+
+        <CheckBox
+            android:id="@+id/opc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:paddingLeft="30dp"
+            android:text="@string/twoopc"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/caption"
+            android:layout_width="wrap_content"
+            android:layout_height="120sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="50dp"
+            android:text="@string/ques3"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/imgnike"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nikebrand" />
+
+        <EditText
+            android:id="@+id/imgdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q3ans"
+            android:paddingBottom="20dp"
+            android:inputType="textMultiLine" />
+        <TextView
+            android:id="@+id/belong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="50dp"
+            android:text="@string/ques4"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/imgjeff"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jeffedited" />
+
+        <RadioGroup
+            android:id="@+id/ques4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp">
+
+            <RadioButton
+                android:id="@+id/opa4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fouropa"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+            <RadioButton
+                android:id="@+id/opb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fouropb"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+            <RadioButton
+                android:id="@+id/opc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fouropc"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/kane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="50dp"
+            android:text="@string/ques5"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/imgkane"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kaneblur" />
+
+        <RadioGroup
+            android:id="@+id/ques5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp">
+
+            <RadioButton
+                android:id="@+id/opa5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiveopa"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+            <RadioButton
+                android:id="@+id/opb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiveopb"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+            <RadioButton
+                android:id="@+id/opc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiveopc"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffff" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="65dp"
+            android:backgroundTint="@android:drawable/screen_background_light_transparent"
+            android:text="SUBMIT"
+            android:textColor="#a1def4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView3"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

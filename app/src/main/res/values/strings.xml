@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Identify me</string>
+    <string name="oneopa">Soccer City,South Africa</string>
+    <string name="oneopb">Beiging National Stadium</string>
+    <string name="oneopc">Santiago Bernebeu,Spain</string>
+    <string name="q1ans">Beiging National Stadium</string>
+    <string name="twoopa">Phnom Penh</string>
+    <string name="twoopb">Java</string>
+    <string name="twoopc">Cambodia</string>
+    <string name="ques2">Where am I?</string>
+    <string name="ques3">My Brand?</string>
+    <string name="q3ans">Nike</string>
+    <string name="ques4">Where do I belong?</string>
+    <string name="fouropa">Twitter</string>
+    <string name="fouropb">ebay</string>
+    <string name="fouropc">Amazon</string>
+    <string name="ques5">Catch me if u can!</string>
+    <string name="fiveopa">John Donahoe</string>
+    <string name="fiveopb">Kane Williamson</string>
+    <string name="fiveopc">Jack Dorsey</string>
+    <string name="q4ans">Amazon</string>
+    <string name="q5ans">Kane Williamson</string>
+
+
+</resources>
